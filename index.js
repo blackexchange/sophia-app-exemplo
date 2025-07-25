@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/sophia_exemplo';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://mongo:dqtPqNRcgxzogNgCmrPgLRmohmqrBrio@mainline.proxy.rlwy.net:53699/';
 
 app.use(express.json());
 
